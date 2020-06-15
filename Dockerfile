@@ -1,3 +1,4 @@
 FROM nginx
-COPY ./docker-logo.png /usr/share/nginx/html/
-COPY ./jenkins-logo.png /usr/share/nginx/html/
+COPY ./*.png /usr/share/nginx/html/
+COPY ./index.html /usr/share/nginx/html/
+
